@@ -167,6 +167,7 @@ body {
   border: none;
   border-radius: 5px 35px 35px 5px;
   padding: 25px;
+  padding-right: 82px;
   color: #fff;
   outline: none;
 }
@@ -206,6 +207,7 @@ body {
 
 .todoApp__list {
   padding: 20px;
+  margin-right: auto;
 }
 
 .todoApp__list__item {
@@ -238,9 +240,17 @@ body {
   padding: 25px;
 }
 
-.todoApp__list__item a.icona {
-  font-size: 26px;
+.todoApp__list__item a.icon {
+  font-size: 30px;
   color: #cbd5d2;
+}
+
+.todoApp__list__item a.icon--remove:hover {
+  color: red;
+}
+
+.todoApp__list__item a.icon--check {
+  color: #19ba99;
 }
 
 .todoApp__list__item::after {

@@ -30,6 +30,7 @@ body {
       border: none;
       border-radius: 5px 35px 35px 5px;
       padding: 25px;
+      padding-right: 82px;
       color: $white;
       outline: none;
 
@@ -55,6 +56,7 @@ body {
 
   &__list {
     padding: 20px;
+    margin-right: auto;
 
     &__item {
       justify-content: space-between;
@@ -77,9 +79,19 @@ body {
         padding: 25px;
       }
 
-      a.icona {
-        font-size: 26px;
+      a.icon {
+        font-size: 30px;
         color: $grey;
+
+        &--remove {
+          &:hover {
+            color: red;
+          }
+        }
+
+        &--check {
+          color: $green;
+        }
       }
 
       &::after {
