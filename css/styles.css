@@ -240,16 +240,18 @@ body {
   padding: 25px;
 }
 
-.todoApp__list__item a.icon {
+.todoApp__list__item a.icona {
   font-size: 30px;
   color: #cbd5d2;
 }
 
-.todoApp__list__item a.icon--remove:hover {
+.todoApp__list__item a.icona--remove:hover {
   color: red;
 }
 
-.todoApp__list__item a.icon--check {
+.todoApp__list__item a.icona--check {
+  margin-right: 22px;
+  margin-left: 39px;
   color: #19ba99;
 }
 

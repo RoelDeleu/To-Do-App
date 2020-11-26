@@ -79,7 +79,7 @@ body {
         padding: 25px;
       }
 
-      a.icon {
+      a.icona {
         font-size: 30px;
         color: $grey;
 
@@ -90,6 +90,8 @@ body {
         }
 
         &--check {
+          margin-right: 22px;
+          margin-left: 39px;
           color: $green;
         }
       }
