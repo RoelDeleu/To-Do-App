@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
-@import url(e:\Software Development\VSCode Projecten\Oefening To Do App\css\icon\style.css);
+@import "./icon/style.css";
 * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -148,19 +147,14 @@ body {
   margin: 0 auto;
   padding: 15px;
 }
-
 .todoApp__form {
   background-color: #19ba99;
   position: relative;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding: 20px;
   border-radius: 10px;
-  -webkit-filter: drop-shadow(0px 2px 2px #c5c4c4);
   filter: drop-shadow(0px 2px 2px #c5c4c4);
 }
-
 .todoApp__form__input {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.3);
@@ -171,27 +165,10 @@ body {
   color: #fff;
   outline: none;
 }
-
-.todoApp__form__input::-webkit-input-placeholder {
-  color: #fff;
-  font-size: 19px;
-}
-
-.todoApp__form__input:-ms-input-placeholder {
-  color: #fff;
-  font-size: 19px;
-}
-
-.todoApp__form__input::-ms-input-placeholder {
-  color: #fff;
-  font-size: 19px;
-}
-
 .todoApp__form__input::placeholder {
   color: #fff;
   font-size: 19px;
 }
-
 .todoApp__form__button {
   font-weight: 300;
   position: absolute;
@@ -204,57 +181,41 @@ body {
   border-radius: 50%;
   padding: 14px 23px;
 }
-
 .todoApp__list {
   padding: 20px;
   margin-right: auto;
 }
-
 .todoApp__list__item {
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   background-color: #fff;
   border-radius: 5px;
   margin-bottom: 15px;
-  -webkit-filter: drop-shadow(0px 2px 2px #c5c4c4);
   filter: drop-shadow(0px 2px 2px #c5c4c4);
 }
-
 .todoApp__list__item--checked {
   text-decoration: line-through;
-  -webkit-text-decoration-color: #19ba99;
   text-decoration-color: #19ba99;
 }
-
 .todoApp__list__item .text {
   margin-right: auto;
   color: #000;
   padding: 25px;
 }
-
 .todoApp__list__item a.icona {
   font-size: 30px;
   color: #cbd5d2;
 }
-
 .todoApp__list__item a.icona--remove:hover {
   color: red;
 }
-
 .todoApp__list__item a.icona--check {
   margin-right: 22px;
   margin-left: 39px;
   color: #19ba99;
 }
-
 .todoApp__list__item::after {
   content: "";
   position: absolute;
@@ -262,4 +223,5 @@ body {
   height: 40px;
   border-left: 2px solid #eef3f6;
 }
+
 /*# sourceMappingURL=styles.css.map */
