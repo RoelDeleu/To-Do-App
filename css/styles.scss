@@ -38,6 +38,10 @@ body {
         color: $white;
         font-size: 19px;
       }
+
+      &--errorstate {
+        background-color: rgba($red, 0.7);
+      }
     }
 
     &__button {
@@ -85,7 +89,7 @@ body {
 
         &--remove {
           &:hover {
-            color: red;
+            color: $red;
           }
         }
 
